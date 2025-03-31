@@ -16,12 +16,13 @@ export default function Book() {
     return <div>Book not found</div>;
   }
 
-
   return (
     <div>
-        <h2>{book.title}</h2>
-        <p>{book.author}</p>
-        <p>{book.description}</p>
+      
+
+      <h2>{book.title}</h2>
+      <p>{book.author}</p>
+      <p>{book.description}</p>
     </div>
   );
 }
